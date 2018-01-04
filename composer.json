@@ -21,7 +21,8 @@
         "topthink/think-captcha": "^1.0",
         "topthink/think-image": "^1.0",
         "topthink/think-helper": "^1.0",
-        "ezyang/htmlpurifier": "^4.9"
+        "ezyang/htmlpurifier": "^4.9",
+        "overtrue/wechat": "~4.0"
     },
     "extra": {
         "think-path": "thinkphp"
