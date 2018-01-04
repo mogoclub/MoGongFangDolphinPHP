@@ -11,14 +11,14 @@
 
 return [
     // 产品信息
-    'product_name'      => 'DolphinPHP',
+    'product_name'      => '魔工坊后台系统',
     'product_version'   => '1.1.0',
     'build_version'     => '201712171143',
-    'product_website'   => 'http://www.dolphinphp.com',
-    'product_update'    => 'http://www.dolphinphp.com/checkUpdate',
+    'product_website'   => 'http://wiki.mogo.club',
+    'product_update'    => 'http://www.mogo.club',
     'develop_team'      => 'DolphinPHP',
 
     // 公司信息
-    'company_name'    => '河源市卓锐科技有限公司',
-    'company_website' => 'http://www.zrthink.com',
+    'company_name'    => '湖南魔工坊科技有限公司',
+    'company_website' => 'http://www.mogo.club',
 ];
