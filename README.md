@@ -10,3 +10,7 @@
 ### composer包
 + easyWeChat
 > https://www.easywechat.com/docs/master
+
+## 日志
+### 2018.01.11
++ 增加杨希成提供的一些公共方法
