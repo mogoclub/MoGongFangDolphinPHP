@@ -186,3 +186,12 @@ function mogo_get_time($time){
     }
 }
 
+/**
+ * 统一错误码
+ * @param string $msg
+ * @param array $extra
+ * @return \think\response\Json
+ */
+function mogo_error($msg='no message',$extra =[]){
+    return json(['error'=>$msg,'extra'=>$extra],400);
+}

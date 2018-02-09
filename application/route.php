@@ -8,14 +8,14 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
+use think\Route;
 
-return [
-    '__pattern__' => [
-        'name' => '\w+',
-    ],
-    '[hello]'     => [
-        ':id'   => ['index/hello', ['method' => 'get'], ['id' => '\d+']],
-        ':name' => ['index/hello', ['method' => 'post']],
-    ],
 
-];
+// 资源控制器 restful
+Route::resource('sign','demo/sign');
+// 功能控制器
+Route::post('v2/comment','xiaoan/comment/saveV2');
+
+/*
+ 不同host的api可在NGINX做代理服务
+*/
