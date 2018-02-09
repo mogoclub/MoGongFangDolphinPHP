@@ -12,5 +12,10 @@
 > https://www.easywechat.com/docs/master
 
 ## 日志
-### 2018.01.11
+### 2018.1.11
 + 增加杨希成提供的一些公共方法
+
+### 2018.2.4
++ 替换了默认的logo
+### 2018.2.9
++ 加入上传的开放API /index/index/upload 字段为 file

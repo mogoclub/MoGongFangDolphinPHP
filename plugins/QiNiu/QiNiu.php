@@ -129,8 +129,9 @@ class QiNiu extends Plugin
             return json(['code' => 0, 'class' => 'danger', 'info' => '上传失败']);
         } else {
             // 获取附件信息
+            $uid = session('user_auth.uid');
             $data = [
-                'uid'    => session('user_auth.uid'),
+                'uid'    => $uid?:1,
                 'name'   => $file_info['name'],
                 'mime'   => $file_info['type'],
                 'path'   => $config['domain'].$key,
