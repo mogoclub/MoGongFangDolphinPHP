@@ -37,6 +37,18 @@ class Index extends Home
      */
     public function upload($dir = 'images', $from = '', $module = 'xiaoan')
     {
+
+        // 这里是解决跨域问题的 默认关闭跨域
+        if(false){
+            header('Access-Control-Allow-Origin:*');
+            if($this->request->isOptions()){
+                header('content-type:application:json;charset=utf8');
+                header('Access-Control-Allow-Methods:POST');
+                header('Access-Control-Allow-Headers:x-requested-with,content-type');
+                return json('succcess');
+            }
+        }
+
         $file = $this->request->file('file');
         if(!(isset($file))) return json('无文件上传',422);
         // 临时取消执行时间限制
