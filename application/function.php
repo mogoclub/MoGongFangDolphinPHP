@@ -195,3 +195,12 @@ function mogo_get_time($time){
 function mogo_error($msg='no message',$extra =[]){
     return json(['error'=>$msg,'extra'=>$extra],400);
 }
+
+/**
+ * 阿里斯柯达就啊 可兰经
+ * @param $title
+ * @return int
+ */
+function haibao($title){
+    return 123;
+}
