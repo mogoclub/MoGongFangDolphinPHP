@@ -26,12 +26,12 @@
 # Requirement
 
 ```
-PHP >= 7.0
+PHP >= 5.4
 ```
 # Installation
 
 ```shell
-$ composer require "overtrue/socialite" -vvv
+$ composer require "overtrue/socialite:~1.1"
 ```
 
 # Usage

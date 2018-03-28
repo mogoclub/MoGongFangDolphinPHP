@@ -9,11 +9,12 @@
 
 ### composer包
 + easyWeChat
-> https://www.easywechat.com/docs/master
+> https://www.easywechat.com/docs/3.x/zh-CN/index
 
 ## 日志
 
-
+### 2018.3.28
++ 将easywechat升级到3.x 文档链接也做了相应修改
 
 ### 2018.2.27
 + 上传API加入了跨域,可以使用跨域上传
