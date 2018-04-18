@@ -17,6 +17,7 @@ class ComposerStaticInitea24a8d88377c9cd0962665edfe67ce8
         '9b552a3cc426e3287cc811caefa3cf53' => __DIR__ . '/..' . '/topthink/think-helper/src/helper.php',
         '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
         '9e090711773bfc38738f5dbaee5a7f14' => __DIR__ . '/..' . '/overtrue/wechat/src/Payment/helpers.php',
+        '155488b065c09907a03c24fc72a78307' => __DIR__ . '/..' . '/lokielse/omnipay-alipay/src/Common/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -32,6 +33,7 @@ class ComposerStaticInitea24a8d88377c9cd0962665edfe67ce8
             'Symfony\\Polyfill\\Php70\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\HttpFoundation\\' => 33,
+            'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
         ),
         'P' => 
@@ -43,6 +45,8 @@ class ComposerStaticInitea24a8d88377c9cd0962665edfe67ce8
         'O' => 
         array (
             'Overtrue\\Socialite\\' => 19,
+            'Omnipay\\Alipay\\Tests\\' => 21,
+            'Omnipay\\Alipay\\' => 15,
         ),
         'M' => 
         array (
@@ -94,6 +98,10 @@ class ComposerStaticInitea24a8d88377c9cd0962665edfe67ce8
         array (
             0 => __DIR__ . '/..' . '/symfony/http-foundation',
         ),
+        'Symfony\\Component\\EventDispatcher\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/event-dispatcher',
+        ),
         'Symfony\\Bridge\\PsrHttpMessage\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/psr-http-message-bridge',
@@ -113,6 +121,14 @@ class ComposerStaticInitea24a8d88377c9cd0962665edfe67ce8
         'Overtrue\\Socialite\\' => 
         array (
             0 => __DIR__ . '/..' . '/overtrue/socialite/src',
+        ),
+        'Omnipay\\Alipay\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lokielse/omnipay-alipay/tests',
+        ),
+        'Omnipay\\Alipay\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lokielse/omnipay-alipay/src',
         ),
         'Monolog\\' => 
         array (
@@ -148,11 +164,29 @@ class ComposerStaticInitea24a8d88377c9cd0962665edfe67ce8
                 0 => __DIR__ . '/..' . '/pimple/pimple/src',
             ),
         ),
+        'O' => 
+        array (
+            'Omnipay\\Common\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/omnipay/common/src',
+            ),
+        ),
         'H' => 
         array (
             'HTMLPurifier' => 
             array (
                 0 => __DIR__ . '/..' . '/ezyang/htmlpurifier/library',
+            ),
+        ),
+        'G' => 
+        array (
+            'Guzzle\\Tests' => 
+            array (
+                0 => __DIR__ . '/..' . '/guzzle/guzzle/tests',
+            ),
+            'Guzzle' => 
+            array (
+                0 => __DIR__ . '/..' . '/guzzle/guzzle/src',
             ),
         ),
     );
@@ -162,6 +196,7 @@ class ComposerStaticInitea24a8d88377c9cd0962665edfe67ce8
         'AssertionError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
         'DivisionByZeroError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php',
         'Error' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/Error.php',
+        'Omnipay\\Omnipay' => __DIR__ . '/..' . '/omnipay/common/src/Omnipay/Omnipay.php',
         'ParseError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ParseError.php',
         'SessionUpdateTimestampHandlerInterface' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/SessionUpdateTimestampHandlerInterface.php',
         'TypeError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/TypeError.php',

@@ -8,10 +8,20 @@
 > 教程 https://miaoqiang.name/archives/dolphinphp-excel-plugins.html
 
 ### composer包
-+ easyWeChat
++ easyWeChat 用于微信登陆/支付等 
 > https://www.easywechat.com/docs/3.x/zh-CN/index
 
++ Omnipay-alipay 支付宝支付库
+> https://github.com/lokielse/omnipay-alipay
+
++ guzzle  一个http请求库;
+> http://guzzle-cn.readthedocs.io/zh_CN/latest/
+
 ## 日志
+
+### 2018.4.18
++ 增加Omnipay: Alipay 支付宝支付库
++ 修改使用文档
 
 ### 2018.3.28
 + 将easywechat升级到3.x 文档链接也做了相应修改

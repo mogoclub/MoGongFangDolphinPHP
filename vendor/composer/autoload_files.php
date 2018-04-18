@@ -16,4 +16,5 @@ return array(
     '9b552a3cc426e3287cc811caefa3cf53' => $vendorDir . '/topthink/think-helper/src/helper.php',
     '2cffec82183ee1cea088009cef9a6fc3' => $vendorDir . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
     '9e090711773bfc38738f5dbaee5a7f14' => $vendorDir . '/overtrue/wechat/src/Payment/helpers.php',
+    '155488b065c09907a03c24fc72a78307' => $vendorDir . '/lokielse/omnipay-alipay/src/Common/helpers.php',
 );
