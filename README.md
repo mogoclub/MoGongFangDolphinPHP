@@ -19,6 +19,9 @@
 
 ## 日志
 
+### 2018.4.23
++ 增加个推SDK集成 文档 https://www.kancloud.cn/mogo-fun/dev-standard/597775
+
 ### 2018.4.18
 + 增加Omnipay: Alipay 支付宝支付库
 + 修改使用文档
